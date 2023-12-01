@@ -1,0 +1,41 @@
+.infoBlock {
+  width: 300px;
+  text-align: right;
+}
+
+.infoTitle {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #FCB045;
+  background-image: linear-gradient(90deg, #FCB045, #FF3F78);
+  -webkit-background-clip: text;
+}
+
+.highlight {
+  display: inline;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1440px) {
+
+  .infoBlock {
+    width: 272px;
+    margin-top: 45px;
+    text-align: left;
+  }
+
+  .infoTitle {
+    margin-bottom: 20px;
+  }
+
+}

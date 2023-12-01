@@ -1,0 +1,12 @@
+.navList {
+  display: flex;
+  flex-grow: 1;
+}
+
+@media (max-width: 1440px) {
+
+  .navList {
+    flex-grow: 0;
+  }
+
+}

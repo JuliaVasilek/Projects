@@ -1,0 +1,19 @@
+.mobileCard {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 15px;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.dash {
+  display: inline-block;
+  height: 1px;
+  width: 10px;
+  margin-right: 5px;
+  background-color: #FCB045;
+  background-image: linear-gradient(90deg, #FCB045, #FF3F78);
+}

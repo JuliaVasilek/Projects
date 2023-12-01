@@ -1,0 +1,23 @@
+.titleBlock {
+  width: 370px;
+}
+
+.subtext {
+  width: 275px;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media (max-width: 1440px) {
+
+  .titleBlock {
+    width: auto;
+  }
+  
+
+  .subtext {
+    margin-top: 15px;
+  }
+
+}

@@ -1,0 +1,26 @@
+.footerContacts, .linkList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 136px;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
+@media (max-width: 1440px) {
+
+  .footerContacts {
+    margin-top: 30px;
+    align-items: flex-start;
+    flex-grow: 0;
+  }
+
+  .linkList {
+    align-items: flex-start;
+  }
+
+  .address {
+    font-size: 14px;
+  }
+}

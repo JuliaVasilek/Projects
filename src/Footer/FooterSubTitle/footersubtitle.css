@@ -1,0 +1,14 @@
+.footerSubTitle {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--footerSubTitleColor);
+  text-transform: uppercase;
+}
+
+@media (max-width: 1440px) {
+
+  .footerSubTitle {
+    font-size: 12px;
+  }
+}

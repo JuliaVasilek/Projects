@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(/src/fonts/Inter/Inter-Regular.woff2) format('woff2'), url(/src/fonts/Inter/Inter-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(/src/fonts/Inter/Inter-Medium.woff2) format('woff2'), url(/src/fonts/Inter/Inter-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(/src/fonts/Inter/Inter-Bold.woff2) format('woff2'), url(/src/fonts/Inter/Inter-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(/src/fonts/Inter/Inter-Black.woff2) format('woff2'), url(/src/fonts/Inter/Inter-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/src/fonts/Montserrat/Montserrat-Light.woff2) format('woff2'), url(/src/fonts/Montserrat/Montserrat-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/src/fonts/Montserrat/Montserrat-Regular.woff2) format('woff2'), url(/src/fonts/Montserrat/Montserrat-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root{
+  --textColor: #E4E5EA;
+  --footerSubTitleColor: #656566;
+  --mobileBlack: #00010F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: auto;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--textColor);
+  scroll-behavior: smooth;
+  background-color: #00010F;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-image: url(../img/Desktop-background.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 1440px) {
+
+  body {
+    background-image: url(../img/Mobile-background.png);
+    background-attachment: unset;
+    background-position: center;
+  }
+
+}

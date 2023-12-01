@@ -1,25 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import { Header } from './Header';
+import { MainContent } from './MainContent';
+import { Footer } from './Footer';
+import {screenSizeContext} from './contexts/screenSizeContext';
 
 function App() {
+
+  const ScreenSizeProvider = screenSizeContext.Provider;
+  
+  const [windowWidth, setWindowWidth]   = useState(window.innerWidth);
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+
+  const updateDimensions = () => {
+    setWindowWidth(window.innerWidth);
+    setWindowHeight(window.innerHeight);
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ScreenSizeProvider value={{
+      windowWidth: windowWidth,
+      windowHeight: windowHeight
+    }}>
+      <div className="App">
+        <div className="container">
+          <Header/>
+          <MainContent/>
+          <Footer/>
+        </div>
+      </div>
+    </ScreenSizeProvider>
   );
 }
 

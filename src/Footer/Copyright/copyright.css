@@ -1,0 +1,18 @@
+.copyright {
+  position: absolute;
+  bottom: -115px;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.copyright a {
+  text-decoration: underline;
+}
+
+@media (max-width: 1440px) {
+
+  .copyright {
+    bottom: -90px;
+  }
+}

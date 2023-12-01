@@ -1,0 +1,17 @@
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.width80 {
+  width: 80px;
+}
+
+.width92 {
+  width: 92px;
+}
+
+.width120 {
+  width: 120px;
+}
+
