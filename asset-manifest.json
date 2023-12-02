@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/amocrm-project/static/css/main.102e928e.css",
+    "main.js": "/amocrm-project/static/js/main.cd0ec4ee.js",
+    "static/media/Desktop-background.png": "/amocrm-project/static/media/Desktop-background.1c41829359e42c31734d.png",
+    "static/media/Mobile-background.png": "/amocrm-project/static/media/Mobile-background.acfb054b12cc58348a72.png",
+    "static/media/Montserrat-Light.woff2": "/amocrm-project/static/media/Montserrat-Light.62eb216ca701d9895767.woff2",
+    "static/media/Montserrat-Regular.woff2": "/amocrm-project/static/media/Montserrat-Regular.427f5b0440e04bc3dc1a.woff2",
+    "static/media/Inter-Bold.woff": "/amocrm-project/static/media/Inter-Bold.a9221dece54e5fc1087a.woff",
+    "static/media/Inter-Medium.woff": "/amocrm-project/static/media/Inter-Medium.f65c8c00e68bb792e264.woff",
+    "static/media/Inter-Black.woff": "/amocrm-project/static/media/Inter-Black.f961eb748fbf208666ad.woff",
+    "static/media/Inter-Regular.woff": "/amocrm-project/static/media/Inter-Regular.8a19fc72bf6ea80a89e8.woff",
+    "static/media/Inter-Bold.woff2": "/amocrm-project/static/media/Inter-Bold.74a8620796c795315a62.woff2",
+    "static/media/Inter-Medium.woff2": "/amocrm-project/static/media/Inter-Medium.19e05b2238d4f2d8d3d5.woff2",
+    "static/media/Inter-Black.woff2": "/amocrm-project/static/media/Inter-Black.b2225c2dc69e7ffb47b7.woff2",
+    "static/media/Inter-Regular.woff2": "/amocrm-project/static/media/Inter-Regular.e976b84791e6a5f65646.woff2",
+    "static/media/Montserrat-Regular.woff": "/amocrm-project/static/media/Montserrat-Regular.7a230c40a5b8f9033e19.woff",
+    "static/media/Montserrat-Light.woff": "/amocrm-project/static/media/Montserrat-Light.e4125d2b9c3014fd0ad0.woff",
+    "index.html": "/amocrm-project/index.html",
+    "main.102e928e.css.map": "/amocrm-project/static/css/main.102e928e.css.map",
+    "main.cd0ec4ee.js.map": "/amocrm-project/static/js/main.cd0ec4ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.102e928e.css",
+    "static/js/main.cd0ec4ee.js"
+  ]
+}
